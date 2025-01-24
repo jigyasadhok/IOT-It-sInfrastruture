@@ -50,10 +50,10 @@ and is used basically in the supply chain management to identify items.
 EPCglobal is the organization that developed and manages this technology and its standards.
 
 EPC Types
+  96-bit EPC: Supports 268 million companies, 16 million product categories, and 68 billion serial numbers per category.
 
-1. 96-bit EPC: Supports 268 million companies, 16 million product categories, and 68 billion serial numbers per category.
+  64-bit EPCs (Types I, II, III): Support 16,000 companies, up to 9 million product types, and 33 million serial numbers per type.
 
-2. 64-bit EPCs (Types I, II, III): Support 16,000 companies, up to 9 million product types, and 33 million serial numbers per type.
 
 3. 6LoWPAN
 6LoWPAN stands for "IPv6 over Low-power Wireless Personal Area Networks". It is a protocol designed to enable low-power devices (like sensors) to communicate using IPv6 over wireless networks like IEEE 802.15.4, which have limited bandwidth, small packet sizes (127 bytes), and low power consumption.
