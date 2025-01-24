@@ -36,3 +36,29 @@ WiFi 5 (802.11ac): High speed (~1.3 Gbps); optimized for 5 GHz.
 WiFi 6 (802.11ax): Enhanced speed (~9.6 Gbps), supports more devices, and offers low latency. Range: Up to 50 meters indoors, 100 meters outdoors. 
 
 Applications: Internet access in homes, offices, and public areas. IoT device connectivity. High-speed streaming and gaming.
+
+Infrastructure Protocols:
+1. LTE-A
+LTE-Advanced (LTE-A) is an improved version of LTE technology designed for cellular communication, especially for IoT and smart city applications. It is ideal for these scenarios because it offers low costs, scalability, and long-term infrastructure durability.
+
+At its core, LTE-A works using a technology called OFDMA (Orthogonal Frequency Division Multiple Access), which splits the network bandwidth into smaller chunks called Physical Resource Blocks (PRBs) to efficiently handle multiple devices. It also uses carrier aggregation, allowing up to five 20 MHz channels to combine, increasing data capacity.  
+
+2. EPCglobal
+EPCglobal: The Electronic Product Code (EPC) is a
+unique identification number which is stored on an RFID tag
+and is used basically in the supply chain management to identify items.
+EPCglobal is the organization that developed and manages this technology and its standards.
+EPC Types
+
+96-bit EPC: Supports 268 million companies, 16 million product categories, and 68 billion serial numbers per category.
+
+64-bit EPCs (Types I, II, III): Support 16,000 companies, up to 9 million product types, and 33 million serial numbers per type.
+
+3. 6LoWPAN
+6LoWPAN stands for "IPv6 over Low-power Wireless Personal Area Networks". It is a protocol designed to enable low-power devices (like sensors) to communicate using IPv6 over wireless networks like IEEE 802.15.4, which have limited bandwidth, small packet sizes (127 bytes), and low power consumption.
+
+Why Do We Need 6LoWPAN?
+IPv6 packets are much larger than what low-power networks like IEEE 802.15.4 can handle. To solve this, 6LoWPAN acts as an adaptation layer to make IPv6 work efficiently over these constrained networks by:
+1. Compressing IPv6 headers: Reduces overhead to save bandwidth and power.
+2. Fragmenting packets: Splits large IPv6 packets into smaller ones that fit the limited frame size.
+3. Supporting multi-hop communication: Ensures packets can pass through multiple devices to reach their destination.
