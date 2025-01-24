@@ -63,3 +63,88 @@ IPv6 packets are much larger than what low-power networks like IEEE 802.15.4 can
 1. Compressing IPv6 headers: Reduces overhead to save bandwidth and power.
 2. Fragmenting packets: Splits large IPv6 packets into smaller ones that fit the limited frame size.
 3. Supporting multi-hop communication: Ensures packets can pass through multiple devices to reach their destination.
+
+   
+6. Z-Wave
+Type: Wireless communication protocol for smart home automation.
+Standard: Designed for low-power devices in the IoT (Internet of Things) ecosystem.
+
+Features:
+
+Low Power Consumption: Optimized for battery-powered devices like sensors and smart locks.
+Mesh Networking: Supports up to 232 devices, enhancing reliability and range.
+Interoperability: Devices certified by Z-Wave Alliance work seamlessly together.
+Security: AES-128 encryption for secure data transmission.
+Frequency Bands: Operates on sub-GHz bands (e.g., 908.42 MHz in the US) to avoid interference with Wi-Fi.
+Applications:
+
+Home automation (e.g., lighting, thermostats, smart locks).
+Security systems and sensors.
+Energy management devices.
+
+7. mDNS (Multicast Domain Name System)
+Type: Local network naming service.
+Standard: Part of the Zeroconf (Zero Configuration Networking) protocols.
+
+Features:
+
+Local Name Resolution: Resolves hostnames to IP addresses within a local network without requiring a DNS server.
+Service Discovery: Helps find devices and services (e.g., printers, smart TVs) on a network.
+Multicast Communication: Uses multicast IP addresses for querying and responding.
+Compatibility: Supported by major OS platforms like Windows, macOS, and Linux.
+Applications:
+
+Smart home devices (e.g., discovering speakers and printers).
+Peer-to-peer file sharing.
+IoT device discovery in local networks.
+
+8. DNS-SD (DNS Service Discovery)
+Type: Protocol for discovering services over a network.
+Standard: Built on top of mDNS and DNS protocols.
+
+Features:
+
+Service Advertisement: Devices announce their available services (e.g., "_http._tcp" for HTTP servers).
+Cross-Platform Support: Works across operating systems and devices.
+Human-Readable Names: Simplifies identifying services with user-friendly names.
+Scalability: Can work in both local networks (with mDNS) and large-scale networks (with traditional DNS).
+Applications:
+
+Finding network services like printers, file servers, and media servers.
+IoT ecosystems for seamless device interaction.
+Smart office solutions for automatic resource discovery.
+
+9. NFC (Near Field Communication)
+Type: Short-range wireless communication technology.
+Standard: Based on RFID (Radio Frequency Identification) technology, operating at 13.56 MHz.
+
+Features:
+
+Short Range: Communication within a range of 4 cm, ensuring security.
+Fast Pairing: Establishes connections instantly without manual setup.
+Low Power Consumption: Ideal for passive devices like NFC tags.
+Two-Way Communication: Both devices can send and receive data.
+Security: Uses encryption and secure channels for sensitive transactions.
+Applications:
+
+Contactless payments (e.g., Apple Pay, Google Pay).
+Access control and keyless entry systems.
+Data sharing between devices (e.g., photos, contact info).
+Smart advertising with NFC-enabled posters.
+
+10. GSF (Google Services Framework)
+Type: Backend framework for Android services.
+Standard: Proprietary software by Google.
+
+Features:
+
+Authentication: Enables Google account login and synchronization.
+API Support: Provides access to Google APIs (e.g., Google Maps, Google Drive).
+Push Notifications: Facilitates real-time notifications for apps through Firebase Cloud Messaging (FCM).
+Automatic Updates: Streamlines app and OS updates on Android devices.
+Data Sync: Ensures seamless synchronization of apps and services across devices.
+Applications:
+
+Core functionality for Android devices (e.g., Google Play Services).
+Location-based services and navigation.
+Cloud-based app integration and synchronization.
